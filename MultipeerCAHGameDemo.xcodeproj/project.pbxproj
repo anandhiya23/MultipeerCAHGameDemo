@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F80895862CA1AA84007E0686 /* MultipeerCAHGameDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80895852CA1AA84007E0686 /* MultipeerCAHGameDemoApp.swift */; };
+		F808958A2CA1AA86007E0686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80895892CA1AA86007E0686 /* Assets.xcassets */; };
+		F808958D2CA1AA86007E0686 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F808958C2CA1AA86007E0686 /* Preview Assets.xcassets */; };
+		F80895992CA2548A007E0686 /* MultipeerCAHGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80895982CA2548A007E0686 /* MultipeerCAHGameView.swift */; };
+		F808959B2CA254C8007E0686 /* GameMultipeerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F808959A2CA254C8007E0686 /* GameMultipeerSession.swift */; };
+		F808959D2CA25523007E0686 /* PairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F808959C2CA25523007E0686 /* PairView.swift */; };
+		F80895A02CA266BA007E0686 /* PickBlackCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F808959F2CA266BA007E0686 /* PickBlackCardView.swift */; };
+		F80895A22CA26779007E0686 /* CAHGameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80895A12CA26779007E0686 /* CAHGameManager.swift */; };
+		F80895A42CA26A58007E0686 /* PlayerPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80895A32CA26A58007E0686 /* PlayerPickView.swift */; };
+		F80895A62CA26B28007E0686 /* RevealCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80895A52CA26B28007E0686 /* RevealCardView.swift */; };
+		F80895A82CA26B55007E0686 /* RevealWinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80895A72CA26B55007E0686 /* RevealWinnerView.swift */; };
+		F80895AA2CA2A22F007E0686 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80895A92CA2A22F007E0686 /* File.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F80895822CA1AA84007E0686 /* MultipeerCAHGameDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipeerCAHGameDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80895852CA1AA84007E0686 /* MultipeerCAHGameDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerCAHGameDemoApp.swift; sourceTree = "<group>"; };
+		F80895892CA1AA86007E0686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F808958C2CA1AA86007E0686 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F80895982CA2548A007E0686 /* MultipeerCAHGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerCAHGameView.swift; sourceTree = "<group>"; };
+		F808959A2CA254C8007E0686 /* GameMultipeerSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMultipeerSession.swift; sourceTree = "<group>"; };
+		F808959C2CA25523007E0686 /* PairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairView.swift; sourceTree = "<group>"; };
+		F808959E2CA259C5007E0686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F808959F2CA266BA007E0686 /* PickBlackCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickBlackCardView.swift; sourceTree = "<group>"; };
+		F80895A12CA26779007E0686 /* CAHGameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAHGameManager.swift; sourceTree = "<group>"; };
+		F80895A32CA26A58007E0686 /* PlayerPickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerPickView.swift; sourceTree = "<group>"; };
+		F80895A52CA26B28007E0686 /* RevealCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealCardView.swift; sourceTree = "<group>"; };
+		F80895A72CA26B55007E0686 /* RevealWinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealWinnerView.swift; sourceTree = "<group>"; };
+		F80895A92CA2A22F007E0686 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F808957F2CA1AA84007E0686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F80895792CA1AA84007E0686 = {
+			isa = PBXGroup;
+			children = (
+				F80895852CA1AA84007E0686 /* MultipeerCAHGameDemoApp.swift */,
+				F80895842CA1AA84007E0686 /* MultipeerCAHGameDemo */,
+				F80895832CA1AA84007E0686 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F80895832CA1AA84007E0686 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F80895822CA1AA84007E0686 /* MultipeerCAHGameDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F80895842CA1AA84007E0686 /* MultipeerCAHGameDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F80895A12CA26779007E0686 /* CAHGameManager.swift */,
+				F808959A2CA254C8007E0686 /* GameMultipeerSession.swift */,
+				F808959E2CA259C5007E0686 /* Info.plist */,
+				F80895982CA2548A007E0686 /* MultipeerCAHGameView.swift */,
+				F808959C2CA25523007E0686 /* PairView.swift */,
+				F80895A32CA26A58007E0686 /* PlayerPickView.swift */,
+				F80895A52CA26B28007E0686 /* RevealCardView.swift */,
+				F808959F2CA266BA007E0686 /* PickBlackCardView.swift */,
+				F80895A72CA26B55007E0686 /* RevealWinnerView.swift */,
+				F80895A92CA2A22F007E0686 /* File.swift */,
+				F80895892CA1AA86007E0686 /* Assets.xcassets */,
+				F808958B2CA1AA86007E0686 /* Preview Content */,
+			);
+			path = MultipeerCAHGameDemo;
+			sourceTree = "<group>";
+		};
+		F808958B2CA1AA86007E0686 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F808958C2CA1AA86007E0686 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F80895812CA1AA84007E0686 /* MultipeerCAHGameDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80895902CA1AA86007E0686 /* Build configuration list for PBXNativeTarget "MultipeerCAHGameDemo" */;
+			buildPhases = (
+				F808957E2CA1AA84007E0686 /* Sources */,
+				F808957F2CA1AA84007E0686 /* Frameworks */,
+				F80895802CA1AA84007E0686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipeerCAHGameDemo;
+			productName = MultipeerCAHGameDemo;
+			productReference = F80895822CA1AA84007E0686 /* MultipeerCAHGameDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F808957A2CA1AA84007E0686 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F80895812CA1AA84007E0686 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F808957D2CA1AA84007E0686 /* Build configuration list for PBXProject "MultipeerCAHGameDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F80895792CA1AA84007E0686;
+			productRefGroup = F80895832CA1AA84007E0686 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F80895812CA1AA84007E0686 /* MultipeerCAHGameDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F80895802CA1AA84007E0686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F808958D2CA1AA86007E0686 /* Preview Assets.xcassets in Resources */,
+				F808958A2CA1AA86007E0686 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F808957E2CA1AA84007E0686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F808959D2CA25523007E0686 /* PairView.swift in Sources */,
+				F808959B2CA254C8007E0686 /* GameMultipeerSession.swift in Sources */,
+				F80895A22CA26779007E0686 /* CAHGameManager.swift in Sources */,
+				F80895A62CA26B28007E0686 /* RevealCardView.swift in Sources */,
+				F80895A42CA26A58007E0686 /* PlayerPickView.swift in Sources */,
+				F80895AA2CA2A22F007E0686 /* File.swift in Sources */,
+				F80895862CA1AA84007E0686 /* MultipeerCAHGameDemoApp.swift in Sources */,
+				F80895A82CA26B55007E0686 /* RevealWinnerView.swift in Sources */,
+				F80895A02CA266BA007E0686 /* PickBlackCardView.swift in Sources */,
+				F80895992CA2548A007E0686 /* MultipeerCAHGameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F808958E2CA1AA86007E0686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F808958F2CA1AA86007E0686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F80895912CA1AA86007E0686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MultipeerCAHGameDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 3F3KZHGXN6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MultipeerCAHGameDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bintangnndhy.MultipeerCAHGameDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F80895922CA1AA86007E0686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MultipeerCAHGameDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 3F3KZHGXN6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MultipeerCAHGameDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bintangnndhy.MultipeerCAHGameDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F808957D2CA1AA84007E0686 /* Build configuration list for PBXProject "MultipeerCAHGameDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F808958E2CA1AA86007E0686 /* Debug */,
+				F808958F2CA1AA86007E0686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80895902CA1AA86007E0686 /* Build configuration list for PBXNativeTarget "MultipeerCAHGameDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80895912CA1AA86007E0686 /* Debug */,
+				F80895922CA1AA86007E0686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F808957A2CA1AA84007E0686 /* Project object */;
+}
